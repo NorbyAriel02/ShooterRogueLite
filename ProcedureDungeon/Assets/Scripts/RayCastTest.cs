@@ -19,7 +19,7 @@ public class RayCastTest : MonoBehaviour
     bool CanSpawn()
     {
         RaycastHit hit;
-        Physics.OverlapBox(transform.position + Vector3.right, Vector3.one, transform.rotation);
+        Physics.OverlapBox(transform.position, Vector3.one, transform.rotation);
         // Does the ray intersect any objects excluding the player layer
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.right), out hit, 3f))
         {
