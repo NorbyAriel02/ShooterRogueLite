@@ -80,7 +80,8 @@ MonoBehaviour:
   bulletPrefab: {fileID: 2208613222295833682, guid: 84bc486a8c00e714f9b837bb4c3a409b,
     type: 3}
   spawn: {fileID: 1327146344434165800}
-  shotRate: 1
+  shotRate: 0.1
+  impulseforce: 1500
   delay: 0
 --- !u!1 &7119075457547270555
 GameObject:

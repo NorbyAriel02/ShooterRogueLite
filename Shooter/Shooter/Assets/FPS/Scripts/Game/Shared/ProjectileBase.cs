@@ -1,5 +1,6 @@
 ﻿using UnityEngine;
 using UnityEngine.Events;
+using static Codice.Client.Common.Connection.AskCredentialsToUser;
 
 namespace Unity.FPS.Game
 {

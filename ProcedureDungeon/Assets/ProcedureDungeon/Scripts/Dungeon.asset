@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c38484fb71a406546ad848060f28362b, type: 3}
+  m_Name: Dungeon
+  m_EditorClassIdentifier: 
+  index: 7
+  count: 7
+  roomList:
+  - {fileID: 538824965551498106, guid: fde8221b911ce23479df531d60c0e881, type: 3}
+  - {fileID: 1318845658098424513, guid: e558a311c7d118d419b84369a01eca24, type: 3}
+  - {fileID: 4449238489331456917, guid: 3731add8ca77c33498f6bc5ae7c04bf9, type: 3}
+  - {fileID: 7572394902588407848, guid: 6a3f668f1dddefb479d2d8fae2f4d2c6, type: 3}
+  - {fileID: 1935056015991265594, guid: b834670065021a848a900dac34d026fb, type: 3}
+  - {fileID: 301306890108040332, guid: 15a5b257fffda1b4eb89425123257b9c, type: 3}
+  - {fileID: 3889485705836309916, guid: 9a6f5a1c5192f2843851d217f6588b31, type: 3}
+  - {fileID: 538824965551498106, guid: 4d4daa4cb5b780a4f9546d90060d00c2, type: 3}
+  doorList:
+  - {fileID: 5837467683183253847, guid: ba89286c8e72cb441853131722884519, type: 3}
+  EndDungeon: {fileID: 8173489891761041745, guid: e25a2e8ca977d4f4aaa7abef7bd64e4a,
+    type: 3}
+  offPos: 4
+  ending: 1
+  KeyDungeon: {fileID: 3699259844831160909, guid: 04bf714399c700c458c3688776af82b9,
+    type: 3}
+  IsKeySpawned: 1
+  parentRooms: {fileID: 0}
+  parentDoors: {fileID: 0}
+  prefabDebug: {fileID: 8173489891761041745, guid: e25a2e8ca977d4f4aaa7abef7bd64e4a,
+    type: 3}
+  deltaCenter: 2
+  sizeBoxCast: 2
